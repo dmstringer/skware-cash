@@ -1,4 +1,4 @@
-var fullTransactionData = [
+var fullTransactionData = [ 
 	{
 		name: "Nicole Stevens",
 		for: "Groceries",

@@ -44,4 +44,4 @@ document.addEventListener("DOMContentLoaded", function () {
 		document.getElementById('transactions').innerHTML = renderTransactions(filteredData);
 	});
 
-});
+}); 

@@ -18,7 +18,7 @@ function renderTransactions(transactions) {
 		return transactionHTML;
 	});
 
-	finalHTML += transactionsHTML.join();
+	finalHTML += transactionsHTML.join('');
 
 	return finalHTML;
 }
@@ -44,4 +44,4 @@ document.addEventListener("DOMContentLoaded", function () {
 		document.getElementById('transactions').innerHTML = renderTransactions(filteredData);
 	});
 
-});
+}); 
